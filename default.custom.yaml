@@ -7,7 +7,7 @@ patch:
     switch_key:
       # Shift_L: inline_ascii
       Shift_L: noop
-      Control_R: commit_code
+      Shift_R: commit_code
 
   # key_binder:
   #   bindings:
