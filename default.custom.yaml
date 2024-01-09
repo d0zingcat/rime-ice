@@ -1,12 +1,17 @@
 patch:
   schema_list:
+    # pinyin
     - schema: rime_ice
+    # flypy double pinyin
     - schema: double_pinyin_flypy
 
   ascii_composer:
+    # by which to switch eng/zh
     switch_key:
       # Shift_L: inline_ascii
+      # disable left shift
       Shift_L: noop
+      # use right shift to switch
       Shift_R: commit_code
 
   # key_binder:

@@ -1,2 +1,3 @@
 patch:
+  # default in english
   switches/@0/reset: 1
