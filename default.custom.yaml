@@ -9,10 +9,8 @@ patch:
     # by which to switch eng/zh
     switch_key:
       # Shift_L: inline_ascii
-      # disable left shift
-      Shift_L: noop
-      # use right shift to switch
-      Shift_R: commit_code
+      Shift_L: commit_code
+      # Shift_R: commit_code
 
   # key_binder:
   #   bindings:
