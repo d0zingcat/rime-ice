@@ -1,3 +1,4 @@
 patch:
   # default in english
-  switches/@0/reset: 1
+  # no need to defaults to english as switching between rime and system default input source should be the best practice
+  # switches/@0/reset: 1
