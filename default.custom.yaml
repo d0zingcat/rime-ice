@@ -5,12 +5,14 @@ patch:
     # flypy double pinyin
     - schema: double_pinyin_flypy
 
-  ascii_composer:
-    # by which to switch eng/zh
-    switch_key:
+  # by which to switch eng/zh
+  ascii_composer/switch_key:
+      Caps_Lock: noop
       # Shift_L: inline_ascii
       Shift_L: commit_code
-      # Shift_R: commit_code
+      Shift_R: noop
+      Control_L: noop
+      Control_R: noop
 
   # key_binder:
   #   bindings:
